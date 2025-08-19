@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754256554758,
+  "lastUpdate": 1755636444680,
   "repoUrl": "https://github.com/evolv3ai/n8n-mcp",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -52,6 +52,58 @@ window.BENCHMARK_DATA = {
             "unit": "ms",
             "range": 0.28459999999999996,
             "extra": "15019 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "56956555+czlonkowski@users.noreply.github.com",
+            "name": "Romuald Członkowski",
+            "username": "czlonkowski"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "baab3a02dc68c5d81e33f93bce0e5462d65a52d1",
+          "message": "Merge pull request #139 from czlonkowski/feature/validation-improvements\n\nchore: update n8n to v1.106.3 and bump version to 2.10.4",
+          "timestamp": "2025-08-12T08:57:47+02:00",
+          "tree_id": "eb0e009eb0f4f9b2b57fab8bd3ab6b4442e72ccc",
+          "url": "https://github.com/evolv3ai/n8n-mcp/commit/baab3a02dc68c5d81e33f93bce0e5462d65a52d1"
+        },
+        "date": 1755636444276,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0188,
+            "unit": "ms",
+            "range": 0.2738,
+            "extra": "53201 ops/sec"
+          },
+          {
+            "name": "sample - array sorting - large",
+            "value": 3.1659,
+            "unit": "ms",
+            "range": 0.5140000000000002,
+            "extra": "316 ops/sec"
+          },
+          {
+            "name": "sample - string concatenation",
+            "value": 0.0047,
+            "unit": "ms",
+            "range": 0.2648,
+            "extra": "214039 ops/sec"
+          },
+          {
+            "name": "sample - object creation",
+            "value": 0.0673,
+            "unit": "ms",
+            "range": 0.2971,
+            "extra": "14862 ops/sec"
           }
         ]
       }
