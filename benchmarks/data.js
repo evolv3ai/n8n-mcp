@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1755983721505,
+  "lastUpdate": 1761419142093,
   "repoUrl": "https://github.com/evolv3ai/n8n-mcp",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -156,6 +156,37 @@ window.BENCHMARK_DATA = {
             "unit": "ms",
             "range": 0.3545,
             "extra": "15020 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "56956555+czlonkowski@users.noreply.github.com",
+            "name": "Romuald Członkowski",
+            "username": "czlonkowski"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b87f638e52d85ab77302f60293113d01d28a14ae",
+          "message": "Merge pull request #370 from czlonkowski/claude/version-bump-2.22.5-011CUTuNP2G3vGqSo8R9uubN\n\nchore: bump version to 2.22.5",
+          "timestamp": "2025-10-25T17:19:15+02:00",
+          "tree_id": "aad35ed51b6ec46de9a86a59e67c7189c02ba65d",
+          "url": "https://github.com/evolv3ai/n8n-mcp/commit/b87f638e52d85ab77302f60293113d01d28a14ae"
+        },
+        "date": 1761419141795,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0136,
+            "range": "0.3096",
+            "unit": "ms",
+            "extra": "73341 ops/sec"
           }
         ]
       }
